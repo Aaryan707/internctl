@@ -7,10 +7,10 @@ internsctl - custom Linux command for operations
 internsctl [OPTIONS] COMMAND [ARGS]
 
 ## DESCRIPTION
-internsctl is a custom Linux command for performing various operations.
+internsctl is a custom Linux command for performing various operations. this repo was instructed by Xenon Stack in their technical round1.
 
 ## OPTIONS
---help, -h
+--help
 ## Display this help message
 
        --version
@@ -57,13 +57,13 @@ Retrieve CPU information
 ls(1), lscpu(1), free(1), useradd(8), userdel(8), stat(1)
 
 ## AUTHOR
-Written by [Your Name]
+Written by Aaryan
 
 ## REPORTING BUGS
-Report bugs to [Your Email]
+Report bugs to this repository.
 
 ## COPYRIGHT
-Copyright © [Year] [Your Name]. License GPLv3+: GNU GPL version 3 or later
+Copyright © 2024 Aaryan. License GPLv3+: GNU GPL version 3 or later
 <http://gnu.org/licenses/gpl.html>.
 This is free software: you are free to change and redistribute it. There is NO
 WARRANTY, to the extent permitted by law.
