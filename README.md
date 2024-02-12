@@ -1,28 +1,28 @@
 #internsctl(1) User Commands internsctl(1)
 
-##NAME
+## NAME
 internsctl - custom Linux command for operations
 
-##SYNOPSIS
+## SYNOPSIS
 internsctl [OPTIONS] COMMAND [ARGS]
 
-##DESCRIPTION
+## DESCRIPTION
 internsctl is a custom Linux command for performing various operations.
 
-##OPTIONS
+## OPTIONS
 --help, -h
-##Display this help message
+## Display this help message
 
        --version
               Display the version of the command
 
-##COMMANDS
+## COMMANDS
 cpu Retrieve CPU information
 memory Retrieve memory information
 user Manage users
 file Manage files
 
-##EXAMPLES
+## EXAMPLES
 internsctl cpu getinfo
 Retrieve CPU information
 
@@ -53,16 +53,16 @@ Retrieve CPU information
        internsctl file getinfo --last-modified <filename>
               Retrieve the last modified time of a file
 
-##SEE ALSO
+## SEE ALSO
 ls(1), lscpu(1), free(1), useradd(8), userdel(8), stat(1)
 
-##AUTHOR
+## AUTHOR
 Written by [Your Name]
 
-##REPORTING BUGS
+## REPORTING BUGS
 Report bugs to [Your Email]
 
-##COPYRIGHT
+## COPYRIGHT
 Copyright © [Year] [Your Name]. License GPLv3+: GNU GPL version 3 or later
 <http://gnu.org/licenses/gpl.html>.
 This is free software: you are free to change and redistribute it. There is NO
